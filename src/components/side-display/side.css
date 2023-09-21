@@ -1,0 +1,51 @@
+.side{
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    left: 25%;
+    z-index: -1;
+    top: 0;
+    transition: 0.5s ease;
+    border-radius: 0 20px 20px 0; 
+    background-color: black;
+    color: white;
+}
+
+
+.side-container{
+    position: relative;
+    left: 40px;
+    padding: 10px;
+    font-size: 16pt;
+    font-family: Roboto, sans-serif;
+    
+}
+
+.side-container > div{
+    margin-bottom: 0;
+    margin-right: 0;
+    width: 95%;
+    padding: 10px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.side-container > div h3{
+    font-weight: 500;
+}
+.side-container > div span{
+    font-weight: 300;
+}
+
+.icon{
+    font-size: 23pt;
+}
+
+.side.active{
+    width: 300px;
+    height: 500px;
+    left: 2%;
+}
+
+
+

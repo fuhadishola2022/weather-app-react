@@ -1,0 +1,25 @@
+.main{
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    z-index: 99;
+    transition: all 0.5s ease; 
+    transform: translateX(0);
+    
+}
+
+/* .main.active{
+    transform: translateX(-50px);
+} */
+
+.main img{
+    max-width: 150%;
+    height: 500px;
+    object-fit: cover;
+    position: relative;
+    right: 75px;
+    z-index: -1;
+    filter: brightness(80%);
+}
+

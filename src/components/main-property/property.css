@@ -1,0 +1,154 @@
+.property{
+    position: relative;
+    bottom: 400px;
+    z-index: 99;
+}
+
+.nav-top{
+    padding: 10px;
+    position: fixed;
+    top: 40px;
+    left: 10px;
+    display: flex;
+}
+
+.nav-top input{
+    padding: 10px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+}
+
+.nav-top input:focus{
+    outline: none;
+}
+
+.search-btn{
+    margin: auto 5px;
+    height: 35px;
+    width: 35px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: white;
+}
+
+.search{
+    color: white;
+}
+
+.container{
+    padding: 20px;
+}
+
+.top{
+    margin-bottom: 70px;
+}
+
+.city-name{
+    font-family: sans-serif;
+    color: white;
+    font-size: 30pt;
+}
+
+.day{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20pt;
+}
+
+.date{
+    color: white;
+    font-family: sans-serif;
+    font-size: 12pt;
+}
+
+
+
+.sun{
+    font-size: 40pt;
+    color: white;
+}
+
+.temp{
+    font-size: 48pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.temp-type{
+    font-size: 18pt;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: white;
+    text-transform: capitalize;
+}
+
+.switch-holder{
+    width: 60px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: red;
+    position: relative;
+    top: -45px;
+    left: 80%;
+    display: flex;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+    border: none;
+}
+
+.switch-holder.active{
+    background-color: green;
+}
+
+.switch{
+    width: 22px;
+    height: 22px;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.switch.active{
+    transform: translateX(50px);
+}
+
+.model{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -5px;
+    left: 85%;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.cidark{
+    font-size: 14pt;
+    font-weight: 900;
+    color: white;
+}
+
+.bs-bright{
+    font-size: 14pt;
+    font-weight: bold;
+    color: white;
+}
+
+
+
