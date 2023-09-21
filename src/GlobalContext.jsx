@@ -23,8 +23,8 @@ export function WeatherContextProvider(props) {
 
     //fetching Pictures
 
-    const API_KEY_PICTURE = '37296108-dfc55a2aa6e856dadb0cccff3'
-    const API_KEY_WEATHER = '637f9d53b0a5a9403f0acd5dbcd8ff67'
+    const API_KEY_PICTURE = ''
+    const API_KEY_WEATHER = ''
 
     const random = Math.floor(Math.random()*10)
 
@@ -42,7 +42,7 @@ export function WeatherContextProvider(props) {
 
     useEffect(() => {
       if(text.length){
-        axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${text}&unit=metric&appid=637f9d53b0a5a9403f0acd5dbcd8ff67`)
+        axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${text}&unit=metric&appid=${API_KEY_WEATHER}`)
       .then((data) => setWeatherData(data.data))
       .catch((err) => {
         console.log(err)
